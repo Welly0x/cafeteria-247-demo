@@ -1,3 +1,4 @@
+import mightyZingerBurger from '../assets/images/Crispy_fried_chicken_burger_2K_20261006234203-removebg-preview.png';
 import React, { useState } from 'react';
 import { RESTAURANT_INFO } from '../data/restaurantData.ts';
 import { MessageCircle, ArrowRight, Sparkles, Bike, Clock, Flame } from 'lucide-react';
@@ -141,7 +142,7 @@ export const Hero: React.FC = () => {
                 }}
               >
                 <img
-                  src="src/assets/images/Crispy_fried_chicken_burger_2K_20261006234203-removebg-preview.png"
+                  src={mightyZingerBurger}
                   alt="Mighty Zinger Burger at Cafeteria 24/7"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.85)] select-none pointer-events-none"
