@@ -1,0 +1,6 @@
+{
+  "name": "Cafeteria 24/7 | Jumeirah Village Triangle, Dubai",
+  "description": "Cafeteria 24/7 in Jumeirah Village Triangle, Dubai. Burgers, paratha, wraps, fried chicken, pizzas, fresh juices and more. Order directly on WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
