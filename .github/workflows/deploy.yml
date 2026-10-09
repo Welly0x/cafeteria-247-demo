@@ -1,4 +1,3 @@
-
 name: Deploy Cafeteria Demo
 
 on:
@@ -25,20 +24,20 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-        node-version: 22
-    
+          node-version: 22
+
       - name: Install dependencies
-        working-directory: cafeteria-24_7_-_jumeirah-village-triangle,-dubai
+        working-directory: cafeteria-24_7-_-jumeirah-village-triangle,-dubai
         run: npm install
 
       - name: Build site
-        working-directory: cafeteria-24_7_-_jumeirah-village-triangle,-dubai
+        working-directory: cafeteria-24_7-_-jumeirah-village-triangle,-dubai
         run: npm run build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: cafeteria-24_7_-_jumeirah-village-triangle,-dubai/dist
+          path: cafeteria-24_7-_-jumeirah-village-triangle,-dubai/dist
 
   deploy:
     environment:
