@@ -1,3 +1,4 @@
+import zingerParathaRoll from '../assets/images/Zinger_paratha_roll_commercial_i__2K_20261006234308-removebg-preview.png';
 import React from 'react';
 import { RESTAURANT_INFO } from '../data/restaurantData.ts';
 import { MessageCircle, Flame, Star, Sparkles, CheckCircle2 } from 'lucide-react';
@@ -61,7 +62,7 @@ export const ParathaFeature: React.FC = () => {
               <div className="relative mx-auto w-full max-w-[340px] aspect-square flex items-center justify-center my-4">
                 <div className="absolute inset-4 rounded-full bg-gradient-to-b from-[#FBBF24]/15 via-transparent to-transparent pointer-events-none" />
                 <img
-                  src="src/assets/images/Zinger_paratha_roll_commercial_i__2K_20261006234308-removebg-preview.png"
+                  src={zingerParathaRoll}
                   alt="Zinger Paratha Roll at Cafeteria 24/7"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-contain filter drop-shadow-[0_15px_30px_rgba(0,0,0,0.85)] group-hover:scale-105 transition-transform duration-500 select-none"
