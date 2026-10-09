@@ -1,3 +1,12 @@
+import mightyZingerBurger from '../assets/images/Crispy_fried_chicken_burger_2K_20261006234203-removebg-preview.png';
+import zingerParathaRoll from '../assets/images/Zinger_paratha_roll_commercial_i__2K_20261006234308-removebg-preview.png';
+import zingerWrap from '../assets/images/Zinger_wrap_food_product_image_2K_20261006234248-removebg-preview.png';
+import chickenPizza from '../assets/images/Chicken_pizza_isolated_commercia__2K_20261006234213-removebg-preview.png';
+import friedChickenMeal from '../assets/images/Fried_chicken_family_meal_product_2K_20261006234223-removebg-preview.png';
+import strawberryMilkshake from '../assets/images/Strawberry_milkshake_product_image_2K_20261006234231-removebg-preview.png';
+import orangeJuice from '../assets/images/Orange_juice_in_glass_2K_20261006234147-removebg-preview.png';
+import goldenFrenchFries from '../assets/images/Golden_french_fries_pile_2K_20261006234252-removebg-preview.png';
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -150,7 +159,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'burgers',
     price: 'AED 18.00',
     description: 'Double stacked golden crispy chicken fillets, molten cheese slice, fresh lettuce, tomato and signature cafeteria spicy sauce.',
-    image: 'src/assets/images/Crispy_fried_chicken_burger_2K_20261006234203-removebg-preview.png',
+    image: mightyZingerBurger,
     isPopular: true,
     isSignature: true,
   },
@@ -161,7 +170,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'paratha',
     price: 'AED 13.00',
     description: 'Freshly griddled layered flaky paratha wrapped tightly around crunchy zinger chicken, spicy mayonnaise, onions and cabbage.',
-    image: 'src/assets/images/Zinger_paratha_roll_commercial_i__2K_20261006234308-removebg-preview.png',
+    image: zingerParathaRoll,
     isPopular: true,
     isSignature: true,
   },
@@ -172,7 +181,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'wraps',
     price: 'AED 14.00',
     description: 'Toasted flat tortilla wrap filled with crispy breaded chicken strips, fresh lettuce, tomatoes, and house dressing.',
-    image: 'src/assets/images/Zinger_wrap_food_product_image_2K_20261006234248-removebg-preview.png',
+    image: zingerWrap,
     isPopular: true,
   },
   {
@@ -182,7 +191,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'pizza',
     price: 'AED 18.00',
     description: 'Oven-baked flat crust topped with shredded mozzarella, spiced chicken chunks, bell peppers, tomato base and black olives.',
-    image: 'src/assets/images/Chicken_pizza_isolated_commercia__2K_20261006234213-removebg-preview.png',
+    image: chickenPizza,
     isPopular: true,
   },
   {
@@ -192,7 +201,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'fried-chicken',
     price: 'AED 25.00',
     description: '4 pieces of hot & crispy broasted chicken served with golden french fries, garlic dip, bun and coleslaw.',
-    image: 'src/assets/images/Fried_chicken_family_meal_product_2K_20261006234223-removebg-preview.png',
+    image: friedChickenMeal,
     isPopular: true,
     isSignature: true,
   },
@@ -203,7 +212,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'milkshakes',
     price: 'AED 10 / 12',
     description: 'Creamy thick shake blended with strawberry puree, whole milk, rich vanilla ice cream, and whipped cream.',
-    image: 'src/assets/images/Strawberry_milkshake_product_image_2K_20261006234231-removebg-preview.png',
+    image: strawberryMilkshake,
     isPopular: false,
   },
   {
@@ -213,7 +222,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'juices',
     price: 'AED 10 / 12',
     description: '100% freshly squeezed sweet and tangy Valencia oranges, pressed on order. Pure refreshment.',
-    image: 'src/assets/images/Orange_juice_in_glass_2K_20261006234147-removebg-preview.png',
+    image: orangeJuice,
     isPopular: false,
   },
   {
@@ -223,7 +232,7 @@ export const FEATURED_PRODUCTS: MenuItem[] = [
     category: 'plates',
     price: 'AED 8.50 / 12.50',
     description: 'A generous portion of golden potato fries, salted to perfection. The ultimate cafeteria side snack.',
-    image: 'src/assets/images/Golden_french_fries_pile_2K_20261006234252-removebg-preview.png',
+    image: goldenFrenchFries,
     isPopular: false,
   },
 ];
