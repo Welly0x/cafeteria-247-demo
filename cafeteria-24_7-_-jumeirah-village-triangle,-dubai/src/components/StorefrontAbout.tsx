@@ -1,3 +1,4 @@
+import cafeteriaStorefront from '../assets/images/cafeteria_storefront_1791399028110.jpg';
 import React from 'react';
 import { RESTAURANT_INFO } from '../data/restaurantData.ts';
 import { MapPin, Phone, MessageCircle, Users, Coffee, Sparkles } from 'lucide-react';
@@ -14,7 +15,7 @@ export const StorefrontAbout: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-3xl overflow-hidden border border-neutral-800 shadow-2xl group">
               <img
-                src="/src/assets/images/cafeteria_storefront_1791399028110.jpg"
+                src={cafeteriaStorefront}
                 alt="Cafeteria 24/7 Dubai Storefront"
                 referrerPolicy="no-referrer"
                 className="w-full h-[380px] sm:h-[450px] object-cover group-hover:scale-103 transition-transform duration-700"
