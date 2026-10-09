@@ -25,10 +25,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: cafeteria-24_7_-_jumeirah-village-triangle,-dubai/package.json
-
+        node-version: 22
+    
       - name: Install dependencies
         working-directory: cafeteria-24_7_-_jumeirah-village-triangle,-dubai
         run: npm install
